@@ -4,9 +4,34 @@
 
 .contact {
   cursor: pointer;
-  color: #0088cc;
+  color: red;
 }
 
 .contact:hover {
   text-decoration: underline;
+}
+
+body {
+  background-image:url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Black-And-Red-Background-HD.jpg");
+  font-size: 20px;
+  font-family: monospace;
+}
+
+h1 {
+    color: red;
+}
+
+label, #show-contact {
+  color:white;
+  text-shadow: 2px 3px 2px red;
+}
+
+h2 {
+  color: white;
+}
+button {
+  color: ivory;
+}
+.form-control{
+  box-shadow: 2px 3px 5px red;
 }
